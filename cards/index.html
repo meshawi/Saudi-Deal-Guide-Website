@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ======================== Global Font Link ========================= -->
+    <link rel="stylesheet" href="../global-styles/globalFont.css" />
+
+    <title>Hover Card Animation</title>
+  </head>
+  <body>
+
+  <iframe src="../navbar/INC_NAV.html" width="100%" height="100%" frameborder="0" ></iframe>
+
+
+    <div class="center">
+      <!-- ======================== Start categories Section ========================= -->
+      <div class="radio-buttons" dir="rtl">
+        <input type="radio" name="category" id="all" checked />
+        <label for="all">كل البطاقات</label>
+        <input type="radio" name="category" id="actionCard" />
+        <label for="actionCard">اكشن كارد</label>
+
+        <input type="radio" name="category" id="rejectionCard" />
+        <label for="rejectionCard">بطاقة رفض </label>
+
+        <input type="radio" name="category" id="buildingCard" />
+        <label for="buildingCard">بطاقة مبنى</label>
+
+        <input type="radio" name="category" id="duesCard" />
+        <label for="duesCard">بطاقه مستحقات</label>
+
+        <input type="radio" name="category" id="rentalCard" />
+        <label for="rentalCard">بطاقة ايجار</label>
+
+        <input type="radio" name="category" id="monyCard" />
+        <label for="monyCard">بطاقة فلوس</label>
+
+        <input type="radio" name="category" id="landCard" />
+        <label for="landCard">بطاقة ارض</label>
+
+        <input type="radio" name="category" id="RealestateCard" />
+        <label for="RealestateCard">بطاقة عقار</label>
+
+        <input type="radio" name="category" id="otherCard" />
+        <label for="otherCard">بطاقات اخرى</label>
+      </div>
+      <!-- City selection radio buttons for RealestateCard -->
+      <div class="city-selection" id="citySelection" dir="rtl">
+        <h5 id="cc">اختر المدينة</h5>
+        <input type="radio" name="city" id="riyadh" value="riyadh" />
+        <label for="city1">الرياض</label>
+        <input type="radio" name="city" id="baha" value="baha" />
+        <label for="city2">الباحة</label>
+        <input type="radio" name="city" id="shrgyah" value="shrgyah" />
+        <label for="city2">الشرقية</label>
+        <input type="radio" name="city" id="taif" value="taif" />
+        <label for="city2">الطائف</label>
+        <input type="radio" name="city" id="qasim" value="qasim" />
+        <label for="city2">القصيم</label>
+        <input type="radio" name="city" id="madenah" value="madenah" />
+        <label for="city2">المدينة</label>
+        <input type="radio" name="city" id="tabok" value="tabok" />
+        <label for="city2">تبوك</label>
+        <input type="radio" name="city" id="jazan" value="jazan" />
+        <label for="city2">جازان</label>
+        <input type="radio" name="city" id="jedah" value="jedah" />
+        <label for="city2">جده</label>
+        <input type="radio" name="city" id="hail" value="hail" />
+        <label for="city2">حايل</label>
+        <input type="radio" name="city" id="aser" value="aser" />
+        <label for="city2">عسير</label>
+        <input type="radio" name="city" id="makkah" value="makkah" />
+        <label for="city2">مكة</label>
+        <input type="radio" name="city" id="city2" value="flipped" />
+        <label for="flipped">مزدوجة</label>
+        <!-- Add more city options as needed -->
+      </div>
+      <br />
+      <!-- ======================== End categories Section ========================= -->
+
+            <!-- Scroll to Top Button -->
+<button id="scrollToTopBtn">Top</button>
+
+
+      <!-- ======================== Start Cards Section ========================= -->
+      <div class="property-cards">
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the action cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/ابرا كادبرا.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>أبراكدبرا!</h5>
+            <p>
+              بطاقه سحرية! بإمكانك تحويلها لمهمة أي بطاقة في اللعبة
+              <br />
+              (عدا رحت فيها+تبطي عظم)
+            </p>
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/اكشف المستور.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>اكشف المستور</h5>
+            <p>اختر احد اللاعبين يكشف لك اوراقه</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/تنقى لك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>تنقى لك!</h5>
+            <p>
+              بهذه البطاقة يمكنك اختيار أي بطاقة من ساحة اللعب الجماعية وضمها
+              لأوراقك
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/جددها.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>جددها!</h5>
+            <p>
+              بهذه البطاقة تجدد جميع أوراقك (بحيث تضع اوراقك القديمة في اخر
+              السحب وبنفس عددها تسحب أوراق جديدة)
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/حبتين.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>حبتين</h5>
+            <p>اسحب بطاقتين إضافية</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/رحت فيها.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>رحت فيها!</h5>
+            <p>اسحب مجموعة كاملة من ساحة أي لاعب واضفها لساحتك</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/سلم واستلم.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>سلم واستلم</h5>
+            <p>بدل جميع أوراقك مع أوراق أحد اللاعبين (لا يشترط تساوي الورق)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/شربك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>شربك !</h5>
+            <p>اسحب بطاقتين من لاعبين وبدلهما بينهما (دون النظر للبطاقات)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/شبيك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>شبيك لبيك!</h5>
+            <p>
+              بهذه البطاقة تستطيع رفع بطاقة واحدة فقط من بنكك وتضمها لأوراقك
+              لتعيدها لوظيفتها
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/على هونك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>على هونك!</h5>
+            <p>
+              توضع هذه البطاقة لإيقاف اللاعب الذي انتهت أوراقه ويشرع بسحب 5
+              أوراق جديدة (بالتالي يسحب بطاقتين فقط)
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/عيني عينك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>عيني عينك!</h5>
+            <p>اسحب بطاقة عشوائية من يد أي لاعب وأضفها لأوراقك</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/غفوه.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>غفوة!</h5>
+            <p>اختر لاعب لتعدي دوره</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/فرفش.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>فرفش!</h5>
+            <p>العب 3 حركات إضافية</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/لايحوشك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>لا يحوشك!</h5>
+            <p>تضاف على المجموعة المكتملة لتأمنها لك من السرقة</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/نسخ لصق.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>نسخ لصق</h5>
+            <p>
+              انسخ آخر أمر موجود في ساحة اللعب! ( اللعب بهذه البطاقة يعتبر
+              حركتين )
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/وحدة تكفيك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>وحدة تكفيك!</h5>
+            <p>
+              اختر لاعب لتقلص حركاته في الدور القادم من 3 حركات إلى حركة واحدة
+              فقط
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all actionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اكشن/ورنا شطارتك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>ورينا شطارتك</h5>
+            <p>
+              اختر أحد اللاعبين لتمنعه من سحب بطاقتين بداية دوره، بحيث يلعب
+              حركاته دون أن يسحب
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the rejection cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/ادفع وانت ساكت.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>ادفع وانت ساكت!</h5>
+            <p>
+              تضم هذه البطاقة مع (بطاقة مستحقات) لإلزام اللاعبين من دفع المبلغ
+              المطلوب دون رفضه
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/انفخ ياشريم.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>انفخ يا شريم قال ما من برطم</h5>
+            <p>
+              تسد المبلغ المطلوب منك في حال لم تكن لديك أموال كافيه لسداده وذلك
+              حمايةً لأراضيك
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+<!-- ======================== Start Card 1 Section ========================= -->
+<div class="property-card" data-categories="all rejectionCard">
+  <a href="#">
+    <div
+      class="property-image"
+      style="
+        background-image: url('../assets/SD_CARDS/رفض/تبطي\ عضم.jpg');
+      "
+    ></div>
+  </a>
+  <div class="property-description">
+    <h5>تبطي عظم
+    </h5>
+    <p>بهذه البطاقه تستطيع رفض اي امر
+      (حتى بالمشمش )</p>
+    <!-- Display the selected city in the card description -->
+    <p>عدد النسخ : 1</p>
+  </div>
+</div>
+<!-- ======================== End Card 1 Section ========================= -->
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/بالمشمش.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>بالمشمش</h5>
+            <p>بهذه البطاقه تستطيع رفض اي امر (عدا بطاقة تبطي عظم )</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 3</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/تغد بهم.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>تغد بهم قبل يتعشون فيك!</h5>
+            <p>(لو طلب منك مبلغ فصاحب الطلب هو من يدفعه لك)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/خذها عني.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>خذها عني</h5>
+            <p>
+              اختر لاعب ينفذ الأمر المطلوب منك (بشرط أن يكون قادر على تنفيذه)
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/دبر نفسك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>دبر نفسك!</h5>
+            <p>
+              تمنع الخصم من استخدام اي امر لمصلحته (واسطة،حبتين،مصحصح،عميل
+              مميز،فرفش،عدم تعرض)
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/لايكثر.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>لا يكثر!</h5>
+            <p>
+              تمنع الخصم من استخدام اي امر لمصلحته (واسطة،حبتين،مصحصح،عميل
+              مميز،فرفش،عدم تعرض)
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rejectionCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/رفض/مصحصح.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>مصحصح</h5>
+            <p>بهذه البطاقة تستطيع لعب دورك (وأنت في وضع الغفوة)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the buildingCard cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all buildingCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مبنى/فندق.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>فندق</h5>
+            <p>يضافه على المجموعه المكتمله لزياده قيمه الايجار ( 3 م )</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all buildingCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مبنى/مجمع.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>مجمع</h5>
+            <p>يضافه على المجموعه المكتمله لزياده قيمه الايجار ( 3 م )</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all buildingCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مبنى/ملاهي.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>ملاهي</h5>
+            <p>يضافه على المجموعه المكتمله لزياده قيمه الايجار ( 5م )</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all buildingCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مبنى/ناطحة سحاب.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>ناطحه سحاب</h5>
+            <p>يضافه على المجموعه المكتمله لزياده قيمه الايجار ( 5م )</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the duesCard cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/اشفط.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>أشفطط!</h5>
+            <p>اختر أحد اللاعبين و اسحب بنكه كاملاً للساحة الجماعية</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/جاك يامهنا.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>جاك يامهنى ما تمنى!</h5>
+            <p>على جميع اللاعبين إعطائك 2 مليون</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/جب الفكة.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>جب الفكة</h5>
+            <p>
+              في حال كان المبلغ الذي تملكه أكثر من المطلوب منك، تضع البطاقة
+              وتطلب المتبقي
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/زيادة الخير.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>زيادة الخير خيرين</h5>
+            <p>بتطلب إيجار ؟! ضع هذه البطاقة مع بطاقة إيجار لتضاعف القيمة</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/شيك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>شيك مفتوح</h5>
+            <p>شيك مفتوح يسدد اي مبلغ مطلوب منك</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/طلع الدفايات.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>طلع الدافيات</h5>
+            <p>اختر أحد اللاعبين ليدفع لك 5 مليون</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/طلع زكاتك.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>طلع زكاتك</h5>
+            <p>على جميع اللاعبين دفع 1 مليون لأقل اللاعبين رصيد في البنك</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/عميل مميز.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>عميل مميز!</h5>
+            <p>
+              بواسطة هذه البطاقة يمكنك تغذية بنكك بالأموال دون ان تحسب لك حركات
+            </p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all duesCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/مستحقات/واسطة.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>واسطة!</h5>
+            <p>العب دورك مرة أخرى ( اللعب بهذه البطاقة يعتبر حركة)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 2</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the rentalCard cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار1.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار2.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار3.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار4.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار5.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار6.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all rentalCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/اجار/ايجار7.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the rentalCard cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="background-image: url('../assets/SD_CARDS/فلوس/1م.jpg')"
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="background-image: url('../assets/SD_CARDS/فلوس/2م.jpg')"
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="background-image: url('../assets/SD_CARDS/فلوس/3م.jpg')"
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="background-image: url('../assets/SD_CARDS/فلوس/4م.jpg')"
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="background-image: url('../assets/SD_CARDS/فلوس/5م.jpg')"
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/فلوس/10م.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all monyCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/فلوس/20م.jpg');
+              "
+            ></div>
+          </a>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the landCard cards section.
+                                  
+    -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="riyadh"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الرياض 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="riyadh"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الرياض 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="riyadh"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الرياض 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="riyadh"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الرياض 4.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="baha"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الباحة 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="baha"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الباحة 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="shrgyah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الشرقية 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="shrgyah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الشرقية 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="shrgyah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الشرقية 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="taif"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الطايف 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="taif"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الطايف 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="taif"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/الطايف 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="qasim"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/القصيم 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="qasim"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/القصيم 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="qasim"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/القصيم 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="madenah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/المدينة 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="madenah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/المدينة 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="madenah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/المدينة\ 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="tabok"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/تبوك 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="tabok"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/تبوك 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="jazan"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/جازان 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="jazan"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/جازان 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="jazan"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/جازان 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="jedah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/جدة 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="jedah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/جدة 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="hail"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/حايل 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="hail"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/حايل 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="aser"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/عسير 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="aser"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/عسير 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="aser"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/عسير 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="makkah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مكة 1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="makkah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مكة 2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="makkah"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مكة 3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة1.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة2.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة3.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة4.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة5.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة6.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة7.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة8.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!-- ======================== Start Card 2 Section ========================= -->
+        <div
+          class="property-card"
+          data-categories="all landCard"
+          data-city="flipped"
+        >
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/ارض/مقلوبة9.jpg');
+              "
+            ></div>
+          </a>
+          <p id="selectedCity"></p>
+        </div>
+        <!-- ======================== End Card 2 Section ========================= -->
+
+        <!--
+    ███╗   ███╗██╗  ██╗███╗   ███╗██████╗ 
+    ████╗ ████║██║  ██║████╗ ████║██╔══██╗
+    ██╔████╔██║███████║██╔████╔██║██║  ██║
+    ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║  ██║
+    ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ 
+    !IMPORTANT: This Is the start of the landCard cards section.
+                                  
+    -->
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all otherCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/الجواكر/هات الجوكر.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>هات الجوكر</h5>
+            <p>اسحب الجوكر لساحتك ( حتى لو كان بمجموعة مكتملة)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 1</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+
+        <!-- ======================== Start Card 1 Section ========================= -->
+        <div class="property-card" data-categories="all otherCard">
+          <a href="#">
+            <div
+              class="property-image"
+              style="
+                background-image: url('../assets/SD_CARDS/الجواكر/الجوكر.jpg');
+              "
+            ></div>
+          </a>
+          <div class="property-description">
+            <h5>الجوكر</h5>
+            <p>اسحب الجوكر لساحتك ( حتى لو كان بمجموعة مكتملة)</p>
+            <!-- Display the selected city in the card description -->
+            <p>عدد النسخ : 3</p>
+          </div>
+        </div>
+        <!-- ======================== End Card 1 Section ========================= -->
+      </div>
+      <!-- ======================== End Cards Section ========================= -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

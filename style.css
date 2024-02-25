@@ -1,0 +1,175 @@
+/* Reset some default margin and padding */
+* {
+  --text-color: #ffffff;
+  --background-color: #18181b;
+
+  --background-gradient: repeating-linear-gradient(
+      90deg,
+      hsla(57, 0%, 42%, 0.09) 0px,
+      hsla(57, 0%, 42%, 0.09) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(57, 0%, 42%, 0.09) 0px,
+      hsla(57, 0%, 42%, 0.09) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(57, 0%, 42%, 0.09) 0px,
+      hsla(57, 0%, 42%, 0.09) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(57, 0%, 42%, 0.09) 0px,
+      hsla(57, 0%, 42%, 0.09) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+  --cards-background: linear-gradient(
+      146deg,
+      rgba(44, 35, 109, 0.5) 0%,
+      rgba(44, 35, 109, 0.5) 14.286%,
+      rgba(64, 54, 108, 0.5) 14.286%,
+      rgba(64, 54, 108, 0.5) 28.572%,
+      rgba(83, 72, 106, 0.5) 28.572%,
+      rgba(83, 72, 106, 0.5) 42.858%,
+      rgba(103, 91, 105, 0.5) 42.858%,
+      rgba(103, 91, 105, 0.5) 57.144%,
+      rgba(123, 110, 103, 0.5) 57.144%,
+      rgba(123, 110, 103, 0.5) 71.43%,
+      rgba(142, 128, 102, 0.5) 71.43%,
+      rgba(142, 128, 102, 0.5) 85.716%,
+      rgba(162, 147, 100, 0.5) 85.716%,
+      rgba(162, 147, 100, 0.5) 100.002%
+    ),
+    linear-gradient(
+      349deg,
+      rgb(203, 4, 7) 0%,
+      rgb(203, 4, 7) 14.286%,
+      rgb(178, 9, 6) 14.286%,
+      rgb(178, 9, 6) 28.572%,
+      rgb(152, 13, 5) 28.572%,
+      rgb(152, 13, 5) 42.858%,
+      rgb(127, 18, 4) 42.858%,
+      rgb(127, 18, 4) 57.144%,
+      rgb(101, 22, 3) 57.144%,
+      rgb(101, 22, 3) 71.43%,
+      rgb(76, 27, 2) 71.43%,
+      rgb(76, 27, 2) 85.716%,
+      rgb(50, 31, 1) 85.716%,
+      rgb(50, 31, 1) 100.002%
+    );
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: var(--background-gradient);
+}
+
+header {
+  background-image: var(--background-gradient);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: var(--text-color);
+}
+
+.card {
+  background-image: var(--cards-background);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  width: 400px;
+  color: #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h4 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #27272764;
+  color: var(--text-color);
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerRed {
+  color: #e74c3c;
+  text-decoration: none;
+}
+.icon {
+  display: block;
+  width: 40px;
+}
+.tos {
+  margin-top: 10px;
+}
+.tos a {
+  padding: 5px 10px;
+  background-color: #0066cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.tos a:hover {
+  background-color: #004080;
+}
+/* Add responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 10px;
+    width: auto;
+  }
+
+  footer {
+    background-color: #27272764;
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+  }
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+}

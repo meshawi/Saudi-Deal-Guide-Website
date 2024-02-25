@@ -1,0 +1,95 @@
+<!-- generate_about.html -->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Generate About Section Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Generate About Section Code</h2>
+      <form id="aboutForm">
+        <label for="aboutId">Section ID:</label>
+        <input type="text" id="aboutId" name="aboutId" />
+
+        <label for="aboutTitle">Section Title:</label>
+        <input type="text" id="aboutTitle" name="aboutTitle" />
+
+        <label for="aboutParagraph1">Paragraph 1:</label>
+        <textarea id="aboutParagraph1" name="aboutParagraph1"></textarea>
+
+        <label for="aboutParagraph2">Paragraph 2:</label>
+        <textarea id="aboutParagraph2" name="aboutParagraph2"></textarea>
+
+        <label for="aboutParagraph3">Paragraph 3:</label>
+        <textarea id="aboutParagraph3" name="aboutParagraph3"></textarea>
+
+        <button type="button" onclick="generateAboutSectionCode()">
+          Generate Code
+        </button>
+
+        <!-- Display the generated code in a textarea -->
+        <textarea id="generatedCode" rows="5" readonly></textarea>
+
+        <!-- Button to copy the generated code -->
+        <button type="button" onclick="copyToClipboard()">
+          Copy to Clipboard
+        </button>
+      </form>
+    </div>
+
+    <script>
+      function generateAboutSectionCode() {
+        const aboutId = document.getElementById("aboutId").value;
+        const aboutTitle = document.getElementById("aboutTitle").value;
+        const aboutParagraph1 =
+          document.getElementById("aboutParagraph1").value;
+        const aboutParagraph2 =
+          document.getElementById("aboutParagraph2").value;
+        const aboutParagraph3 =
+          document.getElementById("aboutParagraph3").value;
+
+        const generatedCode = `
+          <!-- about -->
+          <section class="about" id="${aboutId}">
+            <div class="container">
+              <div class="about-content">
+                <div>
+                  <img src="../../assets/sd2.jpg" alt="" />
+                </div>
+                <div class="about-text">
+                  <div class="title">
+                    <h2>${aboutTitle}</h2>
+                    <p>${aboutParagraph1}</p>
+                  </div>
+                  <p>${aboutParagraph2}</p>
+                  <p>${aboutParagraph3}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- end of about -->
+        `;
+
+        document.getElementById("generatedCode").value = generatedCode;
+      }
+
+      function copyToClipboard() {
+        const generatedCodeTextarea = document.getElementById("generatedCode");
+        generatedCodeTextarea.select();
+        document.execCommand("copy");
+        alert("Code copied to clipboard!");
+      }
+    </script>
+  </body>
+</html>
